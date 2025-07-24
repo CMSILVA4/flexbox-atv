@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex-box</title>
+  <title>Exemplo de Layout Flexbox</title>
   <link rel="stylesheet" href="/css/estilo.css">
 </head>
-
 <body>
   <div id="container">
+    <!-- Cabeçalho -->
+    <header id="header">
+      <h1>Cabeçalho</h1>
+    </header>
+
+    <!-- Menu de Navegação -->
     <div id="menu">
       <ul>
-        <li class="item"><a href="/index.html">01</a></li>
-        <li class="item"><a href="/02.html">02</a></li>
-        <li class="item"><a href="/03.html">03</a></li>
+        <li><a href="#">01</a></li>
+        <li><a href="#">02</a></li>
+        <li><a href="#">03</a></li>
+        <li><a href="#">04</a></li>
+        <li><a href="#">05</a></li>
       </ul>
     </div>
+
+    <!-- Layout Principal -->
     <div id="layout">
-      <!-- COLOQUE O SEU CÓDIGO AQUI DENTRO DESSA DIV -->
+      <section id="content">
+        <h2>Conteúdo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolorem est provident, corrupti sint atque id cumque suscipit saepe odit dolores dignissimos fugiat totam nobis similique officiis dicta cupiditate illo deleniti.</p>
+      </section>
+
+      <!-- Menu Lateral -->
+      <aside id="sidebar">
+        <h3>Menu Lateral</h3>
+        <ul>
+          <li><a href="#">Item 1</a></li>
+          <li><a href="#">Item 2</a></li>
+          <li><a href="#">Item 3</a></li>
+        </ul>
+      </aside>
     </div>
+
+    <!--
+
+
+    <!-- Rodapé -->
+    <footer id="footer">
+      <p>Rodapé</p>
+    </footer>
   </div>
 </body>
-
 </html>

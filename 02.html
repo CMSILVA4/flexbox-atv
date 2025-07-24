@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex-box</title>
+  <title>Layout com Cards</title>
   <link rel="stylesheet" href="/css/estilo.css">
 </head>
-
 <body>
   <div id="container">
+    <!-- Cabeçalho -->
+    <header id="header">
+      <h1>Cards de Informações</h1>
+    </header>
+
+    <!-- Menu de navegação -->
     <div id="menu">
       <ul>
-        <li class="item"><a href="/index.html">01</a></li>
-        <li class="item"><a href="/02.html">02</a></li>
-        <li class="item"><a href="/03.html">03</a></li>
+        <li><a href="#">01</a></li>
+        <li><a href="#">02</a></li>
+        <li><a href="#">03</a></li>
+        <li><a href="#">04</a></li>
+        <li><a href="#">05</a></li>
       </ul>
     </div>
-    <div id="layout">
 
-      <!-- COLOQUE O SEU CÓDIGO AQUI DENTRO DESSA DIV -->
+    <!-- Layout dos Cards -->
+    <div id="layout">
+      <section class="cards">
+        <div class="card">
+          <h3>Card 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Omnis minima amet ex magni.</p>
+        </div>
+        <div class="card">
+          <h3>Card 2</h3>
+          <p>Repellat facilis voluptate animi minima, facere voluptatem sunt quasi ipsam laboriosam.</p>
+        </div>
+        <div class="card">
+          <h3>Card 3</h3>
+          <p>Doloribus, officiis vitae, laborum maiores, optio minus rem consequatur labore expedita.</p>
+        </div>
+      </section>
     </div>
+
+    <!-- Rodapé -->
+    <footer id="footer">
+      <p>Rodapé</p>
+    </footer>
   </div>
 </body>
-
 </html>
