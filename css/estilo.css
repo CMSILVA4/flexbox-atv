@@ -33,7 +33,6 @@
   background-color: #999;
 }
 
-/* ========== LAYOUT 1 ========== */
 
 .layout1 {
   display: flex;
@@ -86,7 +85,6 @@
   font-weight: bold;
 }
 
-/* ========== LAYOUT 2 ========== */
 
 .layout2 {
   display: flex;
@@ -126,7 +124,7 @@
   padding: 20px;
 }
 
-/* ========== LAYOUT 3 ========== */
+
 
 .layout3 {
   display: flex;
