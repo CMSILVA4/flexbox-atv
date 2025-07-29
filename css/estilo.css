@@ -124,23 +124,23 @@
   padding: 20px;
 }
 
-
-
 .layout3 {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  gap: 10px;
+  align-items: center;
   height: 60vh;
   margin-top: 50px;
 }
 
 .layout3 div {
-  width: 100px;
-  background-color: #888;
-  color: #000;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   font-weight: bold;
+  width: 100px;
+  background-color: #888;
+  color: #000;
+}
+.layout3 .cor2{
+  background-color: #555;
 }
